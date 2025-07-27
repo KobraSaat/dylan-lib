@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Libreria Dylan Dog</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Libreria Dylan Dog</h1>
+    <div class="filters">
+      <input type="text" id="search" placeholder="cerca numero o titolo" />
+      <select id="editionFilter">
+        <option value="">Tutte le edizioni</option>
+        <option>Originale</option>
+        <option>Prima ristampa</option>
+        <option>Seconda ristampa</option>
+      </select>
+      <select id="conditionFilter">
+        <option value="">Tutte le condizioni</option>
+        <option>Ottime</option>
+        <option>Buone</option>
+        <option>Pessime</option>
+      </select>
+    </div>
+  </header>
 
+  <main>
+    <div id="count"></div>
+    <div id="cards" class="grid"></div>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> – Libreria Dylan Dog</p>
+  </footer>
+
+  <script src="assets/public.js"></script>
+</body>
+</html>
