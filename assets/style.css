@@ -1,1 +1,14 @@
-
+:root {
+  --bg: #f9f9f9;
+  --fg: #222;
+  --border: #ccc;
+  font-family: system-ui, sans-serif;
+}
+body { background: var(--bg); color: var(--fg); margin: 1rem auto; max-width: 960px; line-height: 1.4; }
+header { margin-bottom: 1rem; }
+.filters { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; }
+.card { border: 1px solid var(--border); border-radius: .5rem; padding: .5rem; background: #fff; }
+.card img { max-width: 100%; display: block; }
+#count { margin-bottom: .5rem; }
+footer { margin-top: 2rem; font-size: .85rem; color: #555; text-align: center; }
