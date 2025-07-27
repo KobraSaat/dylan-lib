@@ -1537,5 +1537,86 @@
     "condition": "",
     "image": "img/DYLANDOG_171.jpg",
     "notes": ""
+  },
+  {
+    "id": 173,
+    "number": 173,
+    "title": "Per un pugno di sterline",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_173.jpg",
+    "notes": ""
+  },
+  {
+    "id": 174,
+    "number": 174,
+    "title": "Un colpo di sfortuna",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_174.jpg",
+    "notes": ""
+  },
+  {
+    "id": 175,
+    "number": 175,
+    "title": "Il seme della follia",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_175.jpg",
+    "notes": ""
+  },
+  {
+    "id": 176,
+    "number": 176,
+    "title": "Il progetto",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_176.jpg",
+    "notes": ""
+  },
+  {
+    "id": 177,
+    "number": 177,
+    "title": "Il discepolo",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_177.jpg",
+    "notes": ""
+  },
+  {
+    "id": 178,
+    "number": 178,
+    "title": "Lettere dall'Inferno",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_178.jpg",
+    "notes": ""
+  },
+  {
+    "id": 179,
+    "number": 179,
+    "title": "La terza faccia della medaglia",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_179.jpg",
+    "notes": ""
+  },
+  {
+    "id": 180,
+    "number": 180,
+    "title": "Notti di caccia",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_180.jpg",
+    "notes": ""
+  },
+  {
+    "id": 181,
+    "number": 181,
+    "title": "Il marchio del vampiro",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_181.jpg",
+    "notes": ""
   }
 ]
