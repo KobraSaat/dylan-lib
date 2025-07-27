@@ -3,17 +3,1251 @@
     "id": 1,
     "number": 1,
     "title": "L'alba dei morti viventi",
-    "edition": "Originale",
-    "condition": "Ottime",
-    "image": "img/0001.jpg",
-    "notes": "Prima edizione"
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
   },
   {
     "id": 2,
     "number": 2,
     "title": "Jack lo squartatore",
-    "edition": "Prima ristampa",
-    "condition": "Buone"
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "title": "Le notti della luna piena",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "title": "Il fantasma di Anna Never",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "title": "Gli uccisori",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "title": "La bellezza del demonio",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "title": "La zona del crepuscolo",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "title": "Il ritorno del mostro",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "title": "Alfa e Omega",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "title": "Attraverso lo specchio",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "title": "Diabolo il grande",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "title": "Killer!",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "title": "Vivono tra noi",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "title": "Fra la vita e la morte",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "title": "Canale 666",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "title": "Il castello della paura",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "title": "La dama in nero",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "title": "Cagliostro!",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "title": "Memorie dall'invisibile",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "title": "Dal profondo",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 21,
+    "number": 21,
+    "title": "Giorno maledetto",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 22,
+    "number": 22,
+    "title": "Il tunnel dell'orrore",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 23,
+    "number": 23,
+    "title": "L'isola misteriosa",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 24,
+    "number": 24,
+    "title": "I conigli rosa uccidono",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 25,
+    "number": 25,
+    "title": "Morgana",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 26,
+    "number": 26,
+    "title": "Dopo mezzanotte",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 27,
+    "number": 27,
+    "title": "Ti ho visto morire",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 28,
+    "number": 28,
+    "title": "Lama di rasoio",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 29,
+    "number": 29,
+    "title": "Quando la città dorme",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 30,
+    "number": 30,
+    "title": "La casa infestata",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 31,
+    "number": 31,
+    "title": "Grand Guignol",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 32,
+    "number": 32,
+    "title": "Ossessione",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 33,
+    "number": 33,
+    "title": "Jekyll!",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 34,
+    "number": 34,
+    "title": "Il buio",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 35,
+    "number": 35,
+    "title": "La scogliera degli spettri",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 36,
+    "number": 36,
+    "title": "Incubo di una notte di mezza estate",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 37,
+    "number": 37,
+    "title": "Il sogno della tigre",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 38,
+    "number": 38,
+    "title": "Una voce dal nulla",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 39,
+    "number": 39,
+    "title": "Il Signore del Silenzio",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 40,
+    "number": 40,
+    "title": "Accadde domani",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 41,
+    "number": 41,
+    "title": "Golconda!",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 42,
+    "number": 42,
+    "title": "La iena",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 43,
+    "number": 43,
+    "title": "Storia di Nessuno",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 44,
+    "number": 44,
+    "title": "Riflessi di morte",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 45,
+    "number": 45,
+    "title": "Goblin",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 46,
+    "number": 46,
+    "title": "Inferni",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 47,
+    "number": 47,
+    "title": "Scritto con il sangue",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 48,
+    "number": 48,
+    "title": "Horror Paradise",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 49,
+    "number": 49,
+    "title": "Il mistero del Tamigi",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 50,
+    "number": 50,
+    "title": "Ai confini del tempo",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 51,
+    "number": 51,
+    "title": "Il Male",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 52,
+    "number": 52,
+    "title": "Il marchio rosso",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 53,
+    "number": 53,
+    "title": "La regina delle tenebre",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 54,
+    "number": 54,
+    "title": "Delirium",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 55,
+    "number": 55,
+    "title": "La mummia",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 56,
+    "number": 56,
+    "title": "Ombre",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 57,
+    "number": 57,
+    "title": "Ritorno al crepuscolo",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 58,
+    "number": 58,
+    "title": "La clessidra di pietra",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 59,
+    "number": 59,
+    "title": "Gente che scompare",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 60,
+    "number": 60,
+    "title": "Frankenstein!",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 61,
+    "number": 61,
+    "title": "Terrore dall'infinito",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 62,
+    "number": 62,
+    "title": "I vampiri",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 63,
+    "number": 63,
+    "title": "Maelstrom!",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 64,
+    "number": 64,
+    "title": "I segreti di Ramblyn",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 65,
+    "number": 65,
+    "title": "La belva delle caverne",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 66,
+    "number": 66,
+    "title": "Partita con la morte",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 67,
+    "number": 67,
+    "title": "L'uomo che visse due volte",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 68,
+    "number": 68,
+    "title": "Lo spettro nel buio",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 69,
+    "number": 69,
+    "title": "Caccia alle streghe",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 70,
+    "number": 70,
+    "title": "Il bosco degli assassini",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 71,
+    "number": 71,
+    "title": "I delitti della Mantide",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 72,
+    "number": 72,
+    "title": "L'ultimo plenilunio",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 73,
+    "number": 73,
+    "title": "Armageddon!",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 74,
+    "number": 74,
+    "title": "Il lungo addio",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 75,
+    "number": 75,
+    "title": "Il tagliagole",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 76,
+    "number": 76,
+    "title": "Maledizione nera",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 77,
+    "number": 77,
+    "title": "L'ultimo uomo sulla Terra",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 78,
+    "number": 78,
+    "title": "I killer venuti dal buio",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 79,
+    "number": 79,
+    "title": "La Fata del Male",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 80,
+    "number": 80,
+    "title": "Il cervello di Killex",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 81,
+    "number": 81,
+    "title": "Johnny Freak",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 82,
+    "number": 82,
+    "title": "Lontano dalla luce",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 83,
+    "number": 83,
+    "title": "Doktor Terror",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 84,
+    "number": 84,
+    "title": "Zed",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 85,
+    "number": 85,
+    "title": "Fantasmi",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 86,
+    "number": 86,
+    "title": "Storia di un povero diavolo",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 87,
+    "number": 87,
+    "title": "Feste di sangue",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 88,
+    "number": 88,
+    "title": "Oltre la morte",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 89,
+    "number": 89,
+    "title": "I cavalieri del tempo",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 90,
+    "number": 90,
+    "title": "Titanic",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 91,
+    "number": 91,
+    "title": "Metamorfosi",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 92,
+    "number": 92,
+    "title": "Il mosaico dell'orrore",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 93,
+    "number": 93,
+    "title": "Presenze...",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 94,
+    "number": 94,
+    "title": "La donna che uccide il passato",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 95,
+    "number": 95,
+    "title": "I giorni dell'incubo",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 96,
+    "number": 96,
+    "title": "La sfida",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 97,
+    "number": 97,
+    "title": "Dietro il sipario",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 98,
+    "number": 98,
+    "title": "Lo sguardo di Satana",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 99,
+    "number": 99,
+    "title": "Sinfonia mortale",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 100,
+    "number": 100,
+    "title": "La storia di Dylan Dog",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 101,
+    "number": 101,
+    "title": "La porta dell'Inferno",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 102,
+    "number": 102,
+    "title": "Fratelli di un altro tempo",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 103,
+    "number": 103,
+    "title": "I demoni",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 104,
+    "number": 104,
+    "title": "Notte senza fine",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 105,
+    "number": 105,
+    "title": "L'orrenda invasione",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 106,
+    "number": 106,
+    "title": "La rivolta delle macchine",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 107,
+    "number": 107,
+    "title": "Il paese delle ombre colorate",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 108,
+    "number": 108,
+    "title": "Il guardiano della memoria",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 109,
+    "number": 109,
+    "title": "Il volo dello struzzo",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 110,
+    "number": 110,
+    "title": "Aracne",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 111,
+    "number": 111,
+    "title": "La profezia",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 112,
+    "number": 112,
+    "title": "Incontri ravvicinati",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 113,
+    "number": 113,
+    "title": "La metà oscura",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 114,
+    "number": 114,
+    "title": "La prigione di carta",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 115,
+    "number": 115,
+    "title": "L'antro della belva",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 116,
+    "number": 116,
+    "title": "La governante",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 117,
+    "number": 117,
+    "title": "La quinta stagione",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 118,
+    "number": 118,
+    "title": "Il gioco del destino",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 119,
+    "number": 119,
+    "title": "L'occhio del gatto",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 120,
+    "number": 120,
+    "title": "Abyss",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 121,
+    "number": 121,
+    "title": "Finché morte non vi separi",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 122,
+    "number": 122,
+    "title": "Il confine",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 123,
+    "number": 123,
+    "title": "Phoenix",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 124,
+    "number": 124,
+    "title": "Il Picco della Strega",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 125,
+    "number": 125,
+    "title": "Tre per zero",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 126,
+    "number": 126,
+    "title": "La Morte Rossa",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 127,
+    "number": 127,
+    "title": "Il cuore di Johnny",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 128,
+    "number": 128,
+    "title": "Il richiamo della foresta",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 129,
+    "number": 129,
+    "title": "Il ritorno di Killex",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 130,
+    "number": 130,
+    "title": "Il negromante",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 131,
+    "number": 131,
+    "title": "Quando cadono le stelle",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 132,
+    "number": 132,
+    "title": "L'uomo che vende il tempo",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 133,
+    "number": 133,
+    "title": "Ananga!",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 134,
+    "number": 134,
+    "title": "L'urlo del giaguaro",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 135,
+    "number": 135,
+    "title": "Scanner",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 136,
+    "number": 136,
+    "title": "Lassù qualcuno ci chiama",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 137,
+    "number": 137,
+    "title": "La città perduta",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 138,
+    "number": 138,
+    "title": "Cattivi pensieri",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": 139,
+    "number": 139,
+    "title": "Hook l'implacabile",
+    "edition": "",
+    "condition": "",
+    "image": "",
+    "notes": ""
   }
 ]
-
