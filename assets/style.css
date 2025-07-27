@@ -1,0 +1,71 @@
+/* ====== VARIABLES ====== */
+:root {
+  --bg: #000;
+  --fg: #fff;
+  --border: #333;
+  --card-bg: #111;
+  --accent: #b30000; /* se ti serve un colore evidenza */
+  font-family: system-ui, sans-serif;
+}
+
+/* ====== BASE ====== */
+body {
+  background: var(--bg);
+  color: var(--fg);
+  margin: 1rem auto;
+  max-width: 960px;
+  line-height: 1.4;
+}
+
+header { margin-bottom: 1rem; }
+
+a { color: var(--fg); text-decoration: underline; }
+
+/* ====== FILTERS ====== */
+.filters {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+input, select, button {
+  padding: .35rem .5rem;
+  background: #111;
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: .3rem;
+}
+
+input:focus, select:focus, button:focus {
+  outline: 2px solid var(--accent);
+}
+
+/* ====== GRID & CARDS ====== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: .5rem;
+  padding: .5rem;
+  background: var(--card-bg);
+}
+
+.card img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ====== MISC ====== */
+#count { margin-bottom: .5rem; }
+
+footer {
+  margin-top: 2rem;
+  font-size: .85rem;
+  color: #aaa;
+  text-align: center;
+}
