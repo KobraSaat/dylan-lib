@@ -4,22 +4,58 @@
   --fg: #fff;
   --border: #333;
   --card-bg: #111;
-  --accent: #b30000; /* se ti serve un colore evidenza */
-  font-family: system-ui, sans-serif;
+  --accent: #b30000; /* Rosso sangue per evidenziazioni */
 }
 
 /* ====== BASE ====== */
+html {
+  /* Tipografia fluida globale */
+  font-size: clamp(14px, 3vw, 18px);
+}
 body {
   background: var(--bg);
   color: var(--fg);
-  margin: 1rem auto;
+  margin: 0 auto;
+  width: 100%;
   max-width: 960px;
+  padding: 0 1rem;
   line-height: 1.4;
+  font-family: system-ui, sans-serif;
+}
+header {
+  margin-bottom: 1rem;
+}
+a {
+  color: var(--fg);
+  text-decoration: underline;
 }
 
-header { margin-bottom: 1rem; }
+/* ====== HEADER ====== */
+.header-title {
+  font-family: 'Creepster', serif;
+  font-weight: 700;
+  /* font-size responsive: da 2.5rem a 5rem */
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--accent);
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+  margin: 1rem 0 0.5rem;
+  line-height: 1.1;
+}
 
-a { color: var(--fg); text-decoration: underline; }
+/* ====== WARNING BANNER ====== */
+.warning {
+  margin: 1rem 0;
+  padding: .8rem 1rem;
+  background: rgba(179,0,0,.15);
+  border: 1px solid var(--accent);
+  border-radius: .4rem;
+  color: var(--accent);
+  font-family: 'Creepster', serif;
+  font-size: clamp(1rem, 4vw, 1.25rem);
+  text-align: center;
+}
 
 /* ====== FILTERS ====== */
 .filters {
@@ -28,44 +64,73 @@ a { color: var(--fg); text-decoration: underline; }
   flex-wrap: wrap;
   margin-bottom: 1rem;
 }
-
-input, select, button {
+.filters input,
+.filters select,
+.filters button {
   padding: .35rem .5rem;
   background: #111;
   color: var(--fg);
   border: 1px solid var(--border);
   border-radius: .3rem;
+  flex: 1 1 100%;
+  min-width: 0;
 }
-
-input:focus, select:focus, button:focus {
+.filters input:focus,
+.filters select:focus,
+.filters button:focus {
   outline: 2px solid var(--accent);
+}
+@media (min-width: 600px) {
+  .filters input,
+  .filters select,
+  .filters button {
+    flex: 0 1 auto;
+    width: auto;
+  }
 }
 
 /* ====== GRID & CARDS ====== */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(180px, 1fr));
+  }
 }
 
 .card {
   border: 1px solid var(--border);
   border-radius: .5rem;
-  padding: .5rem;
+  padding: .75rem;
   background: var(--card-bg);
 }
-
 .card img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
-/* ====== MISC ====== */
-#count { margin-bottom: .5rem; }
+#count {
+  margin-bottom: .5rem;
+}
 
+/* ====== FOOTER ====== */
 footer {
-  margin-top: 2rem;
-  font-size: .85rem;
-  color: #aaa;
   text-align: center;
+  font-size: clamp(0.75rem, 2.5vw, 0.85rem);
+  margin: 2rem 0;
+  color: #aaa;
 }
