@@ -92,11 +92,7 @@ header {
   }
 }
 
-/* Fumetti non posseduti in bianco e nero */
-.card.not-owned {
-  filter: grayscale(100%);
-  opacity: 0.6; /* opzionale, abbassa un po’ il contrasto */
-}
+
 
 /* ====== CARDS GRID ====== */
 .grid {
@@ -147,6 +143,11 @@ header {
 .card p {
   font-size: 0.9rem;
   margin: 0;
+}
+/* Fumetti non posseduti in bianco e nero */
+.card.not-owned {
+  filter: grayscale(100%);
+  opacity: 0.6; /* opzionale, abbassa un po’ il contrasto */
 }
 
 /* ====== COUNT ====== */
