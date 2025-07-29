@@ -43,7 +43,9 @@ function render(items) {
   });
 }
 
-['search','editionFilter','conditionFilter','ownedFilter'].forEach(id => {
+// per gli altri due filtri aggiungere ,'editionFilter','conditionFilter' alla funzione
+
+['search','ownedFilter'].forEach(id => {
   document.getElementById(id).addEventListener('input', applyFilters);
 });
 
