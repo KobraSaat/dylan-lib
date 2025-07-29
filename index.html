@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,33 +10,44 @@
 
 
 </head>
+
 <body>
   <header>
     <!-- <h1>Kobrasaat DyD Collection</h1> -->
     <h1 class="header-title">Kobrasaat's Collection</h1>
     <p class="warning">⚠️⚠️ Sito ancora in costruzione. ⚠️⚠️</p>
     <section id="about">
-    <h2>Perché questo progetto</h2>
-    <p>
-      Questo progetto nasce per offrire ai miei amici un riferimento completo della mia collezione di <em>Dylan Dog</em>.
-      Se doveste imbattervi in un albo che non è presente qui, segnalatemelo: mi aiutereste a completare la raccolta!
-    </p>
+      <h2>Perché questo progetto</h2>
+      <p>
+        Questo progetto nasce per offrire ai miei amici un riferimento completo della mia collezione di <em>Dylan
+          Dog</em>.
+        Se doveste imbattervi in un albo che non è presente qui, segnalatemelo: mi aiutereste a completare la raccolta!
+      </p>
     </section>
     <div class="filters">
       <input type="text" id="search" placeholder="cerca numero o titolo" />
+
       <select id="editionFilter">
         <option value="">Tutte le edizioni</option>
         <option>Originale</option>
         <option>Prima ristampa</option>
         <option>Seconda ristampa</option>
       </select>
+
       <select id="conditionFilter">
         <option value="">Tutte le condizioni</option>
         <option>Ottime</option>
         <option>Buone</option>
         <option>Pessime</option>
       </select>
+
+      <select id="ownedFilter">
+        <option value="">Tutti</option>
+        <option value="true">In libreria</option>
+        <option value="false">Non in libreria</option>
+      </select>
     </div>
+
   </header>
 
   <main>
@@ -49,4 +61,5 @@
 
   <script src="assets/public.js"></script>
 </body>
+
 </html>
