@@ -2890,6 +2890,36 @@
     "owned": true
   },
   {
+    "id": 290,
+    "number": 290,
+    "title": "L’erede oscuro",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_290.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 291,
+    "number": 291,
+    "title": "Senza trucco né inganno",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_291.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 292,
+    "number": 292,
+    "title": "Anime prigioniere",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_292.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
     "id": 293,
     "number": 293,
     "title": "Gli ultimi immortali",
@@ -2900,6 +2930,36 @@
     "owned": true
   },
   {
+    "id": 294,
+    "number": 294,
+    "title": "Piovono rane",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_294.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 295,
+    "number": 295,
+    "title": "Tra moglie e marito…",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_295.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 296,
+    "number": 296,
+    "title": "La seconda occasione",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_296.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
     "id": 297,
     "number": 297,
     "title": "Il sortilegio",
@@ -2908,6 +2968,26 @@
     "image": "img/DYLANDOG_297.jpg",
     "notes": "",
     "owned": true
+  },
+  {
+    "id": 298,
+    "number": 298,
+    "title": "Nella testa del killer",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_298.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 299,
+    "number": 299,
+    "title": "Una affezionata clientela",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_299.jpg",
+    "notes": "",
+    "owned": false
   },
   {
     "id": 300,
