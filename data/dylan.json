@@ -7,6 +7,7 @@
     "condition": "Buone",
     "image": "img/DYLANDOG_001.jpg",
     "notes": ""
+    "owned": true
   },
   {
     "id": 2,
@@ -16,6 +17,7 @@
     "condition": "",
     "image": "img/DYLANDOG_002.jpg",
     "notes": ""
+    "owned": false
   },
   {
     "id": 3,
