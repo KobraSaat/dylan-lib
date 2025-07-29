@@ -2718,5 +2718,15 @@
     "condition": "",
     "image": "img/DYLANDOG_374.jpg",
     "notes": ""
+},
+{
+    "id": 375,
+    "number": 375,
+    "title": "Nel mistero",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_375.jpg",
+    "notes": "",
+    "owned": False
 }
 ]
