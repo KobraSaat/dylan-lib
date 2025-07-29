@@ -12,12 +12,14 @@ function applyFilters() {
   const term = document.getElementById('search').value.toLowerCase();
   const ed   = document.getElementById('editionFilter').value;
   const cond = document.getElementById('conditionFilter').value;
+  const own  = document.getElementById('ownedFilter').value;
 
   const filtered = state.all.filter(c => {
     const matchTerm = !term || c.title.toLowerCase().includes(term) || String(c.number).includes(term);
     const matchEd   = !ed   || c.edition === ed;
     const matchCond = !cond || c.condition === cond;
-    return matchTerm && matchEd && matchCond;
+    const matchOwn  = !own  || String(c.owned) === own;
+    return matchTerm && matchEd && matchCond && matchOwn;
   });
 
   render(filtered);
@@ -39,11 +41,10 @@ function render(items) {
   });
 }
 
-['search','editionFilter','conditionFilter'].forEach(id => {
+['search','editionFilter','conditionFilter','ownedFilter'].forEach(id => {
   document.getElementById(id).addEventListener('input', applyFilters);
 });
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
 load();
-
