@@ -1980,12 +1980,12 @@
     "owned": true
   },
   {
-    "id": 202,
-    "number": 202,
+    "id": 199,
+    "number": 199,
     "title": "Homo homini lupus",
     "edition": "",
     "condition": "",
-    "image": "img/DYLANDOG_202.jpg",
+    "image": "img/DYLANDOG_199.jpg",
     "notes": "",
     "owned": false
   },
@@ -2290,6 +2290,26 @@
     "owned": true
   },
   {
+    "id": 230,
+    "number": 230,
+    "title": "L'inquilino misterioso",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_230.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 231,
+    "number": 231,
+    "title": "Nightmare Tour",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_231.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
     "id": 232,
     "number": 232,
     "title": "Un fantasma a Scotland Yard",
@@ -2329,6 +2349,26 @@
     "notes": "",
     "owned": true
   },
+  {
+    "id": 236,
+    "number": 236,
+    "title": "Vittime designate",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_236.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 237,
+    "number": 237,
+    "title": "All'ombra del vulcano",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_237.jpg",
+    "notes": "",
+    "owned": false
+  }
   {
     "id": 238,
     "number": 238,
