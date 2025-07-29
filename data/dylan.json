@@ -2390,6 +2390,16 @@
     "owned": true
   },
   {
+  "id": 240,
+  "number": 240,
+  "title": "Ucronìa",
+  "edition": "",
+  "condition": "",
+  "image": "img/DYLANDOG_240.jpg",
+  "notes": "",
+  "owned": false
+  },
+  {
     "id": 241,
     "number": 241,
     "title": "Xabaras!",
@@ -2440,6 +2450,16 @@
     "owned": true
   },
   {
+    "id": 246,
+    "number": 246,
+    "title": "La locanda alla fine del mondo",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_246.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
     "id": 247,
     "number": 247,
     "title": "Tutti gli amori di Sally",
@@ -2460,6 +2480,56 @@
     "owned": true
   },
   {
+    "id": 249,
+    "number": 249,
+    "title": "I ricordi sepolti",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_249.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 250,
+    "number": 250,
+    "title": "Ascensore per l'Inferno",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_250.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 251,
+    "number": 251,
+    "title": "Il guardiano del faro",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_251.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 252,
+    "number": 252,
+    "title": "Poltergeist!",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_252.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 253,
+    "number": 253,
+    "title": "I mostri di Sullivan",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_253.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
     "id": 254,
     "number": 254,
     "title": "Vite in gioco",
@@ -2468,6 +2538,36 @@
     "image": "img/DYLANDOG_254.jpg",
     "notes": "",
     "owned": true
+  },
+  {
+    "id": 255,
+    "number": 255,
+    "title": "La stanza numero 63",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_255.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 256,
+    "number": 256,
+    "title": "Il feroce Takurr",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_256.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 257,
+    "number": 257,
+    "title": "Il custode",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_257.jpg",
+    "notes": "",
+    "owned": false
   },
   {
     "id": 258,
@@ -2480,6 +2580,16 @@
     "owned": true
   },
   {
+    "id": 259,
+    "number": 259,
+    "title": "Da una lontana galassia",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_259.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
     "id": 260,
     "number": 260,
     "title": "La condanna di Casper",
@@ -2490,6 +2600,16 @@
     "owned": true
   },
   {
+    "id": 261,
+    "number": 261,
+    "title": "Saluti da Moonlight",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_261.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
     "id": 262,
     "number": 262,
     "title": "L'incendiario",
@@ -2498,6 +2618,16 @@
     "image": "img/DYLANDOG_262.jpg",
     "notes": "",
     "owned": true
+  },
+  {
+    "id": 263,
+    "number": 263,
+    "title": "La collina dei conigli",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_263.jpg",
+    "notes": "",
+    "owned": false
   },
   {
     "id": 264,
@@ -2528,6 +2658,16 @@
     "image": "img/DYLANDOG_266.jpg",
     "notes": "",
     "owned": true
+  },
+  {
+    "id": 267,
+    "number": 267,
+    "title": "Cose dell'altro mondo",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_267.jpg",
+    "notes": "",
+    "owned": false
   },
   {
     "id": 268,
@@ -2708,6 +2848,16 @@
     "image": "img/DYLANDOG_285.jpg",
     "notes": "",
     "owned": true
+  },
+  {
+    "id": 286,
+    "number": 286,
+    "title": "Programma di rieducazione",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_286.jpg",
+    "notes": "",
+    "owned": false
   },
   {
     "id": 287,
