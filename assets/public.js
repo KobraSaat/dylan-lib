@@ -10,14 +10,14 @@ async function load() {
 
 function applyFilters() {
   const term = document.getElementById('search').value.toLowerCase();
-  const ed   = document.getElementById('editionFilter').value;
-  const cond = document.getElementById('conditionFilter').value;
+//  const ed   = document.getElementById('editionFilter').value;
+//  const cond = document.getElementById('conditionFilter').value;
   const own  = document.getElementById('ownedFilter').value;
 
   const filtered = state.all.filter(c => {
     const matchTerm = !term || c.title.toLowerCase().includes(term) || String(c.number).includes(term);
-    const matchEd   = !ed   || c.edition === ed;
-    const matchCond = !cond || c.condition === cond;
+//    const matchEd   = !ed   || c.edition === ed;
+//    const matchCond = !cond || c.condition === cond;
     const matchOwn  = !own  || String(c.owned) === own;
     return matchTerm && matchEd && matchCond && matchOwn;
   });
