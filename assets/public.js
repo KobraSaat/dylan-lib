@@ -32,6 +32,8 @@ function render(items) {
   items.forEach(c => {
     const div = document.createElement('div');
     div.className = 'card';
+    // marca i non posseduti
+    if (c.owned === false) div.classList.add('not-owned');
     div.innerHTML = `
       <img src="${c.image || 'assets/placeholder.jpg'}" alt="Cover #${c.number}">
       <h3>#${c.number} – ${c.title}</h3>
