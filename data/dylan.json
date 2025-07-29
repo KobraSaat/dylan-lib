@@ -1700,6 +1700,16 @@
     "owned": true
   },
   {
+    "id": 172,
+    "number": 172,
+    "title": "Memorie dal sottosuolo",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_172.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
     "id": 171,
     "number": 171,
     "title": "Possessione diabolica",
@@ -1798,6 +1808,16 @@
     "image": "img/DYLANDOG_181.jpg",
     "notes": "",
     "owned": true
+  },
+  {
+    "id": 182,
+    "number": 182,
+    "title": "Safarà",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_182.jpg",
+    "notes": "",
+    "owned": false
   },
   {
     "id": 183,
@@ -1960,6 +1980,16 @@
     "owned": true
   },
   {
+    "id": 202,
+    "number": 202,
+    "title": "Homo homini lupus",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_202.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
     "id": 200,
     "number": 200,
     "title": "Il numero duecento",
@@ -1978,6 +2008,16 @@
     "image": "img/DYLANDOG_201.jpg",
     "notes": "",
     "owned": true
+  },
+  {
+    "id": 202,
+    "number": 202,
+    "title": "Il settimo girone",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_202.jpg",
+    "notes": "",
+    "owned": false
   },
   {
     "id": 203,
@@ -2050,6 +2090,16 @@
     "owned": true
   },
   {
+    "id": 210,
+    "number": 210,
+    "title": "Il Pifferaio Magico",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_210.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
     "id": 211,
     "number": 211,
     "title": "La casa dei fantasmi",
@@ -2078,6 +2128,16 @@
     "image": "img/DYLANDOG_213.jpg",
     "notes": "",
     "owned": true
+  },
+  {
+    "id": 214,
+    "number": 214,
+    "title": "Manila",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_214.jpg",
+    "notes": "",
+    "owned": false
   },
   {
     "id": 215,
@@ -2148,6 +2208,16 @@
     "image": "img/DYLANDOG_221.jpg",
     "notes": "",
     "owned": true
+  },
+  {
+    "id": 222,
+    "number": 222,
+    "title": "La saggezza dei morti",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_222.jpg",
+    "notes": "",
+    "owned": false
   },
   {
     "id": 223,
