@@ -2240,6 +2240,46 @@
     "owned": true
   },
   {
+    "id": 225,
+    "number": 225,
+    "title": "Insonnia",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_225.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 226,
+    "number": 226,
+    "title": "24 ore per non morire",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_226.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 227,
+    "number": 227,
+    "title": "Istinto omicida",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_227.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
+    "id": 228,
+    "number": 228,
+    "title": "Oltre quella porta",
+    "edition": "",
+    "condition": "",
+    "image": "img/DYLANDOG_228.jpg",
+    "notes": "",
+    "owned": false
+  },
+  {
     "id": 229,
     "number": 229,
     "title": "Il cielo può attendere",
