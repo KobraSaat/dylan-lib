@@ -8,6 +8,8 @@ async function load() {
   applyFilters();
 }
 
+// aggiungere && matchEd && matchCond nella return alla funzione per gli altri filtri
+
 function applyFilters() {
   const term = document.getElementById('search').value.toLowerCase();
 //  const ed   = document.getElementById('editionFilter').value;
@@ -19,7 +21,7 @@ function applyFilters() {
 //    const matchEd   = !ed   || c.edition === ed;
 //    const matchCond = !cond || c.condition === cond;
     const matchOwn  = !own  || String(c.owned) === own;
-    return matchTerm && matchEd && matchCond && matchOwn;
+    return matchTerm && matchOwn;
   });
 
   render(filtered);
