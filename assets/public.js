@@ -26,7 +26,7 @@ function applyFilters() {
 }
 
 function render(items) {
-//  document.getElementById('count').textContent = `Totale: ${items.length}`;
+  document.getElementById('count').textContent = `Totale: ${items.length}`;
   const cards = document.getElementById('cards');
   cards.innerHTML = '';
   items.forEach(c => {
