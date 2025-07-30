@@ -214,3 +214,92 @@ footer {
   margin: 2rem 0;
   color: #aaa;
 }
+
+/* ==== NAVBAR FISSA =============================================== */
+/* .navbar{
+  position:fixed; top:0; left:0; right:0; z-index:1000;
+  background:var(--bg);            
+  box-shadow:0 4px 8px rgba(0,0,0,.6);
+  display:flex; align-items:center; justify-content:space-between;
+  padding:.6rem 1rem; gap:1rem; flex-wrap:nowrap;
+} */
+/* blocchi laterali */
+/* .nav-left,.nav-right{display:flex;align-items:center;gap:.6rem;}
+.nav-logo{
+  font-family:'Creepster',serif;
+  font-size:clamp(2rem,4vw,2.5rem);
+  color:var(--accent); white-space:nowrap;
+} */
+
+/* campi normali (desktop) */
+/* .filter-select,
+#search{
+  background:#111; color:var(--fg); border:1px solid var(--border);
+  padding:.35rem .5rem; font-size:.9rem; border-radius:0;
+} */
+
+/* icone (mobile) */
+/* .icon-btn{
+  background:none; border:none; color:var(--fg);
+  font-size:1.4rem; cursor:pointer; padding:.2rem .4rem; display:none;
+} */
+
+/* ======= RESPONSIVE BEHAVIOUR ==================================== */
+/* @media(max-width:600px){
+  .navbar{flex-direction:column; align-items:stretch; gap:.5rem;} */
+
+  /* ordine: logo al centro, controlli sopra + sotto */
+/*   .nav-logo{order:1; margin-bottom:.3rem; text-align:center;}
+  .nav-left {order:2; justify-content:center;}
+  .nav-right{order:3; justify-content:center;} */
+
+  /* icone visibili, campi nascosti di default */
+/*   .icon-btn{display:inline-block;}
+  .filter-select,#search{display:none; width:100%;}
+  .filter-select.show,#search.show{display:block;}
+}
+ */
+/* body già usa padding-top:4.5rem  → lascia così */
+
+/* ==== NAVBAR ===================================================== FIX */
+.navbar{
+  position:fixed; top:0; left:0; right:0; z-index:1000;
+  background:var(--bg);
+  box-shadow:0 4px 8px rgba(0,0,0,.6);
+  display:flex; align-items:center; justify-content:space-between;
+  padding:.6rem 1rem; gap:1rem;
+  flex-wrap:nowrap;        /*  ←  riga aggiunta (desktop) */
+}
+/* blocchi laterali + logo */
+.nav-left,.nav-right{display:flex;align-items:center;gap:.6rem;}
+.nav-logo{
+  font-family:'Creepster',serif;
+  font-size:clamp(2rem,4vw,2.5rem);
+  color:var(--accent); white-space:nowrap;
+}
+.filter-select,#search{
+  background:#111; color:var(--fg); border:1px solid var(--border);
+  padding:.35rem .5rem; font-size:.9rem; border-radius:0;
+}
+.icon-btn{
+  background:none; border:none; color:var(--fg);
+  font-size:1.4rem; cursor:pointer; padding:.2rem .4rem; display:none;
+}
+
+/* ======= RESPONSIVE NAVBAR (≤600 px) ============================ */
+@media(max-width:600px){
+
+  /* riga orizzontale con eventuale seconda riga per i campi */
+  .navbar{flex-direction:row; flex-wrap:wrap; gap:.4rem;}
+
+  /* ordine: ☰ | logo | 🔍 */
+  .nav-left {order:1; flex:0 0 auto;}
+  .nav-logo {order:2; flex:1 1 auto; text-align:center;
+             font-size:clamp(1.6rem,6vw,2.2rem);}
+  .nav-right{order:3; flex:0 0 auto;}
+
+  /* icone visibili, campi nascosti finché non hanno .show */
+  .icon-btn{display:inline-block;}
+  .filter-select,#search{display:none; flex:1 1 100%; width:100%;}
+  .filter-select.show,#search.show{display:block; margin-top:.3rem;}
+}
