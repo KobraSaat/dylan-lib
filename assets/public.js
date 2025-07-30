@@ -55,16 +55,16 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 load();
 
+/* === toggle icone mobile (🔍 / ☰) ================================ */
 
-
-
+/* ==== calcola spazio per la navbar ================================= */
 function setNavSpace() {
   const nav = document.querySelector('.navbar');
   if (!nav) return;
-
+  // altezza effettiva + 8 px di margine di sicurezza
   const h = nav.getBoundingClientRect().height + 8;
   document.documentElement.style.setProperty('--nav-space', `${h}px`);
 }
 
-window.addEventListener('load', setNavSpace);     
-window.addEventListener('resize', setNavSpace);    
+window.addEventListener('load', setNavSpace);      // al primo caricamento
+window.addEventListener('resize', setNavSpace);    // se ridimensioni la finestra
