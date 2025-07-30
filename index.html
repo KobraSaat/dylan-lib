@@ -11,43 +11,63 @@
 
 </head>
 
-<body>
-  <header>
-    <!-- <h1>Kobrasaat DyD Collection</h1> -->
-    <h1 class="header-title">Kobrasaat Collection</h1>
-    <p class="warning">⚠️⚠️ Sito in cotruzione ⚠️⚠️</p>
-    <section id="about">
-      <h2>Perché questo progetto</h2>
-      <p>
-        Questo progetto nasce per offrire ai miei amici un riferimento completo della mia collezione di <em>Dylan
-          Dog</em>.
-        Se doveste imbattervi in un albo che non è presente qui, segnalatemelo: mi aiutereste a completare la raccolta!
-      </p>
-    </section>
-    <div class="filters">
-      <input type="text" id="search" placeholder="cerca numero o titolo" />
-<!--
-      <select id="editionFilter">
-        <option value="">Tutte le edizioni</option>
-        <option>Originale</option>
-        <option>Prima ristampa</option>
-        <option>Seconda ristampa</option>
-      </select>
+<script>
+  // mostra/nasconde il campo di ricerca su mobile
+  document.getElementById('searchToggle')
+    .addEventListener('click', () => {
+      const input = document.getElementById('search');
+      input.classList.toggle('show');
+      input.focus();
+    });
 
-      <select id="conditionFilter">
-        <option value="">Tutte le condizioni</option>
-        <option>Ottime</option>
-        <option>Buone</option>
-        <option>Pessime</option>
-      </select>
--->
-      <select id="ownedFilter">
+  // mostra/nasconde il filtro Owned su mobile
+  document.getElementById('filterToggle')
+    .addEventListener('click', () => {
+      document.getElementById('ownedFilter').classList.toggle('show');
+    });
+</script>
+
+
+<body>
+  <!-- ===== NAVBAR FISSA ===== -->
+  <nav class="navbar">
+    <!-- sinistra: filtro “owned” (☰ su mobile) -->
+    <div class="nav-left">
+      <button id="filterToggle" class="icon-btn" aria-label="Filtri">☰</button>
+
+      <!-- il select esiste già in JS: NON cambiare id -->
+      <select id="ownedFilter" class="filter-select">
         <option value="">Tutti</option>
-        <option value="true">In libreria</option>
-        <option value="false">Non in libreria</option>
+        <option value="true">In libreria</option>
+        <option value="false">Non in libreria</option>
       </select>
     </div>
 
+    <!-- centro: logo -->
+    <div class="nav-logo">Kobrasaat Collection</div>
+
+    <!-- destra: ricerca (🔍 su mobile) -->
+    <div class="nav-right">
+      <!-- il campo esiste già in JS: NON cambiare id -->
+      <input type="text" id="search" placeholder="cerca numero o titolo" />
+
+      <button id="searchToggle" class="icon-btn" aria-label="Cerca">🔍</button>
+    </div>
+  </nav>
+
+  <!-- ===== HEADER (avviso + about) ===== -->
+  <header>
+    <p class="warning">⚠️⚠️ Sito in costruzione ⚠️⚠️</p>
+
+    <section id="about">
+      <h2>Perché questo progetto</h2>
+      <p>
+        Questo progetto nasce per offrire ai miei amici un riferimento completo
+        della mia collezione di <em>Dylan Dog</em>. Se doveste imbattervi in un
+        albo che non è presente qui, segnalatemelo: mi aiutereste a completare la
+        raccolta!
+      </p>
+    </section>
   </header>
 
   <main>
