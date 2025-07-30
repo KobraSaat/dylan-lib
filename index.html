@@ -11,51 +11,31 @@
 
 </head>
 
-<script>
-  // mostra/nasconde il campo di ricerca su mobile
-  document.getElementById('searchToggle')
-    .addEventListener('click', () => {
-      const input = document.getElementById('search');
-      input.classList.toggle('show');
-      input.focus();
-    });
 
-  // mostra/nasconde il filtro Owned su mobile
-  document.getElementById('filterToggle')
-    .addEventListener('click', () => {
-      document.getElementById('ownedFilter').classList.toggle('show');
-    });
-</script>
 
 
 <body>
   <!-- ===== NAVBAR FISSA ===== -->
+  <!-- ===== NAVBAR ===== -->
   <nav class="navbar">
-    <!-- sinistra: filtro “owned” (☰ su mobile) -->
     <div class="nav-left">
-      <button id="filterToggle" class="icon-btn" aria-label="Filtri">☰</button>
-
-      <!-- il select esiste già in JS: NON cambiare id -->
-      <select id="ownedFilter" class="filter-select">
-        <option value="">Tutti</option>
-        <option value="true">In libreria</option>
-        <option value="false">Non in libreria</option>
-      </select>
+      <input type="text" id="search" placeholder="cerca numero o titolo">
     </div>
 
-    <!-- centro: logo -->
-    <div class="nav-logo">Kobrasaat Collection</div>
+    <div class="nav-logo">Kobrasaat Collection</div>
 
-    <!-- destra: ricerca (🔍 su mobile) -->
     <div class="nav-right">
-      <!-- il campo esiste già in JS: NON cambiare id -->
-      <input type="text" id="search" placeholder="cerca numero o titolo" />
-
-      <button id="searchToggle" class="icon-btn" aria-label="Cerca">🔍</button>
+      <select id="ownedFilter">
+        <option value="">Tutti</option>
+        <option value="true">In libreria</option>
+        <option value="false">Non in libreria</option>
+      </select>
     </div>
   </nav>
 
+
   <!-- ===== HEADER (avviso + about) ===== -->
+  <div class="page">
   <header>
     <p class="warning">⚠️⚠️ Sito in costruzione ⚠️⚠️</p>
 
@@ -69,6 +49,7 @@
       </p>
     </section>
   </header>
+</div>
 
   <main>
     <div id="count"></div>
@@ -77,7 +58,9 @@
 
   <footer>
     <p>© <span id="year"></span> – Kobrasaat</p>
+
   </footer>
+  </div>
 
   <script src="assets/public.js"></script>
 </body>
