@@ -9,12 +9,12 @@
   --fg: #fff;
   --border: #333;
   --card-bg: #111;
-  --accent: #b30000; /* Rosso sangue per evidenziazioni */
+  --accent: #b30000; 
 }
 
 /* ====== TYPOGRAPHY & FLUID BASE ====== */
 html {
-  /* Font-size scalabile in base al viewport */
+ 
   font-size: clamp(14px, 3vw, 18px);
 }
 body {
@@ -23,7 +23,7 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 960px;
-  /* padding: 0 1rem; */
+  
   padding: var(--nav-space, 5rem) 1rem 0 1rem;
   line-height: 1.4;
   font-family: system-ui, sans-serif;
@@ -70,7 +70,7 @@ header {
 .filters input,
 .filters select,
 .filters button {
-  flex: 1 1 100%; /* full width on mobile */
+  flex: 1 1 100%; 
   min-width: 0;
   padding: 0.4rem 0.6rem;
   background: #111;
@@ -225,13 +225,13 @@ footer {
   white-space:nowrap;
 }
 
-/* ---- campi di ricerca e filtro (desktop) ---- */
+
 .nav-left input,
 .nav-right select{
   background:#111;
   color:var(--fg);
   border:1px solid var(--border);
-  border-radius:.3rem;      /* angoli arrotondati uniformi */
+  border-radius:.3rem;      
   padding:.4rem .6rem;
   font-size:1rem;
   width:auto;
@@ -265,17 +265,11 @@ footer {
 }
 
 @media (max-width: 600px) {
-  /* navbar più alta perché contiene input + select verticali */
+  /* navbar più alta  */
   body { padding-top: 7.5rem; }  /* regola se serve ± spazio */
 }
 
-/* === BLOCCO RIMOSSO / COMMENTATO ===============================
-.filter-select,
-#search{
-  background:#111; color:var(--fg); border:1px solid var(--border);
-  padding:.35rem .5rem; font-size:.9rem; border-radius:0;
-}
-================================================================ */
+
 .page{
   padding-top: 50px;     /* quanto è alta la barra */
 }
