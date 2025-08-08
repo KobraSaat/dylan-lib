@@ -279,11 +279,10 @@ footer {
 .page{
   padding-top: 50px;     /* quanto è alta la barra */
 }
-
-/* Centratura dinamica del logo solo in modalità desktop */
+/* === BLOCCO RIMOSSO / COMMENTATO ===========================
 @media (min-width: 601px) {
   .navbar {
-    position: relative; /* riferimento per il logo centrato */
+    position: relative;
   }
 
   .nav-logo {
@@ -291,4 +290,5 @@ footer {
     left: 50%;
     transform: translateX(-50%);
   }
-}
+} 
+================================================================ */
