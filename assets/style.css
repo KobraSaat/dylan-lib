@@ -307,4 +307,33 @@ footer {
   .nav-right{ justify-self: end;    min-width: 0; }
 }
 
+/* === Controlli navbar: altezza e larghezze coerenti === */
+:root{
+  --ctrl-h: 2.4rem;      /* altezza uniforme */
+  --ctrl-br: .3rem;      /* raggio angoli */
+  --ctrl-pad-x: .75rem;  /* padding orizzontale */
+}
+
+/* stile comune */
+.nav-left input,
+.nav-right select{
+  height: var(--ctrl-h);
+  line-height: var(--ctrl-h);
+  padding: 0 var(--ctrl-pad-x);
+  border-radius: var(--ctrl-br);
+  font-size: 1rem;
+}
+
+/* normalizza il select (senza togliere la freccia del browser) */
+.nav-right select{
+  -webkit-appearance: menulist; /* evita rendering “alto/basso” su WebKit */
+     -moz-appearance: menulist;
+          appearance: menulist;
+}
+
+/* larghezze responsive (desktop); mobile resta 100% come da tue regole */
+@media (min-width: 601px){
+  .nav-left input{  width: clamp(16rem, 28vw, 22rem); }
+  .nav-right select{ width: clamp(8rem, 12vw, 12rem); }
+}
 
