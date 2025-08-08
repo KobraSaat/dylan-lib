@@ -38,7 +38,7 @@ function render(items) {
     if (c.owned === false) div.classList.add('not-owned');
     div.innerHTML = `
       <img src="${c.image || 'assets/placeholder.jpg'}" alt="Cover #${c.number}">
-      <h3>#${c.number} – ${c.title}</h3>
+      <h3>${c.number} – ${c.title}</h3>
       <p><strong>Edizione:</strong> ${c.edition}<br>
          <strong>Condizione:</strong> ${c.condition}${c.notes ? `<br><strong>Note:</strong> ${c.notes}` : ''}</p>`;
     cards.appendChild(div);
