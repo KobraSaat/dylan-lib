@@ -341,7 +341,7 @@ footer {
 @media (min-width: 601px){
   :root{
     /* una sola misura fluida per ENTRAMBI */
-    --ctrl-w: clamp(16rem, 26vw, 22rem);
+    --ctrl-w: clamp(16rem, 26vw, 10rem);
   }
 
   .nav-left input,
