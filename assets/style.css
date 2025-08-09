@@ -384,4 +384,14 @@ footer {
 h2, h3 {
   color: var(--fg); /* oppure #ff3333 se li vuoi in rosso */
 }
+/* Colore grigio solo per l'opzione selezionata del select */
+.nav-right select {
+  color: #aaa; /* stesso grigio del placeholder */
+}
+
+/* Quando apri il menu, le opzioni interne restano bianche */
+.nav-right select option {
+  color: #fff;
+  background: #111; /* sfondo coerente col tema */
+}
 
