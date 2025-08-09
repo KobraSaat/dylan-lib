@@ -395,3 +395,7 @@ h2, h3 {
   background: #111; /* sfondo coerente col tema */
 }
 
+/* Description progetto in grigio come edizione/condizione */
+#about p {
+  color: #b3b3b3;
+}
