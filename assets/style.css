@@ -26,7 +26,7 @@ body {
   /* padding: 0 1rem; */
   padding: var(--nav-space, 5rem) 1rem 0 1rem;
   line-height: 1.4;
-  font-family: 'Special Elite', system-ui, sans-serif;
+  font-family: 'Special Elite', system-ui, sans-serif, color: yellow;
 }
 
 /* ====== HEADER ====== */
