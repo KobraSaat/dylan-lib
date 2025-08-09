@@ -363,3 +363,25 @@ footer {
   }
 }
 
+/* === Palette colori aggiornata === */
+:root {
+  --fg: #e6e6e6; /* testo principale più morbido */
+  /* mantieni --accent come lo hai, o cambia qui se vuoi */
+}
+
+/* Titoli delle card */
+.card h3 {
+  color: #ff4d4d; /* rosso sangue per titoli */
+}
+
+/* Testo secondario: edizione, condizione, ecc. */
+.card p,
+.card .meta {
+  color: #b3b3b3;
+}
+
+/* Titoli delle sezioni */
+h2, h3 {
+  color: var(--fg); /* oppure #ff3333 se li vuoi in rosso */
+}
+
