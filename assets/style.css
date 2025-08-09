@@ -337,3 +337,29 @@ footer {
   .nav-right select{ width: clamp(8rem, 12vw, 12rem); }
 }
 
+/* === Override finale: stessa larghezza per input e select (solo desktop) === */
+@media (min-width: 601px){
+  :root{
+    /* una sola misura fluida per ENTRAMBI */
+    --ctrl-w: clamp(16rem, 26vw, 22rem);
+  }
+
+  .nav-left input,
+  .nav-right select{
+    width: var(--ctrl-w) !important;   /* forza l'override delle vecchie width */
+    height: var(--ctrl-h);              /* già definita prima, ripetuta per coerenza */
+    line-height: var(--ctrl-h);
+    padding: 0 var(--ctrl-pad-x);
+    border-radius: var(--ctrl-br);
+    font-size: 1rem;
+  }
+
+  /* normalizza il select per non “mangiare” spazio con la freccia */
+  .nav-right select{
+    appearance: menulist;
+    -webkit-appearance: menulist;
+       -moz-appearance: menulist;
+    padding-right: 2.2rem;  /* spazio per caret, non cambia la larghezza totale */
+  }
+}
+
