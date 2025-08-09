@@ -399,3 +399,7 @@ h2, h3 {
 #about p {
   color: #b3b3b3;
 }
+
+h2 {
+  color: #b3b3b3; /* oppure #ff3333 se li vuoi in rosso */
+}
